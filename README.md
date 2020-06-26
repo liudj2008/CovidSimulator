@@ -10,6 +10,15 @@ People are shopping in an indoor market. The market has only one entrance/exit. 
 
    Java Simulator [numOfPeople] [initialSick] [path] [maskPercent] [maskSickPercent] [unMaskSickPercent]
    
+   It is noted that Simulator has five required parameters:
+   
+   numOfPeople: Number of people in the matrix (Market Capacity)
+   initialSick: Number of initial infected people in the market
+   path: save path for output files
+   maskPercent: Percentage of people wearing masks (scale at 0 - 100)
+   maskSickPercent: Probability of being infected if wearing masks (scale at 0 - 100)
+   unMaskPercent: Probability of being infected if not wearing masks (scale at 0 -100)
+   
 3. The model will generate output files in the selcted path folder with 1000 output files, each file holds snapshots of health conditions for 100 steps
 
 # Acknowledgement
